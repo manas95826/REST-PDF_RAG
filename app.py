@@ -16,7 +16,6 @@ import numpy as np
 app = Flask(__name__)
 
 # Set Hugging Face API token
-HUGGINGFACEHUB_API_TOKEN = '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'
 os.environ['HUGGINGFACEHUB_API_TOKEN'] = HUGGINGFACEHUB_API_TOKEN
 
 # Function to extract text from PDF
